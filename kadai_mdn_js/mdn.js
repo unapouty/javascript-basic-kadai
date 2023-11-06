@@ -1,4 +1,4 @@
-var dateName = new Date([2022, 8, 22]);
+var dateName = new Date();
 
 var year = dateName.getFullYear();
 var month = dateName.getMonth()+1;
