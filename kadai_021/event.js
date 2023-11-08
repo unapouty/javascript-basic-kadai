@@ -1,9 +1,9 @@
-// btnというidを持つHTML要素を取得し、定数に代入する
+const text =document.getElementById('text');
 const btn = document.getElementById('btn');
  
 setTimeout(() => {
   text.textContent = 'ボタンをクリックされました';
-  btn.addEventListener('click',() => {
-    
-})
 }, 2000);
+
+btn.addEventListener('click',() => {    
+})
